@@ -8,7 +8,6 @@ import { Routes, Route } from "@solidjs/router";
 function App() {
   return (
     <div>
-      <Nav />
       <Routes>
         <Route path="/music" component={Home} />
         <Route path="/" component={Landing} />
