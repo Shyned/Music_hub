@@ -1,7 +1,20 @@
+import Nav from "./components/Nav";
+import Home from "./pages/Home/Home";
+import Landing from "./pages/Landing/Landing";
+import Register from "./pages/Register/Register";
+import Signin from "./pages/Signin/Signin";
+import { Routes, Route } from "@solidjs/router";
+
 function App() {
   return (
     <div>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <Nav />
+      <Routes>
+        <Route path="/music" component={Home} />
+        <Route path="/" component={Landing} />
+        <Route path="/register" component={Register} />
+        <Route path="/signin" component={Signin} />
+      </Routes>
     </div>
   );
 }
