@@ -1,4 +1,4 @@
 function Home() {
-  return <div>Home</div>;
+  return <div>Music</div>;
 }
 export default Home;

@@ -1,6 +1,9 @@
+import artist from "../../assets/artist.jpg";
+
 export default function Signin() {
   return (
-    <div>
+    <div class="bg-black w-full h-full">
+      <img src={artist} alt="music artist on stage holding a mic" />
       <form>
         <label>Email</label>
         <input></input>

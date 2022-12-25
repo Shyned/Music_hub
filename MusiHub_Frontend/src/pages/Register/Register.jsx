@@ -1,6 +1,5 @@
 import { createEffect, createSignal } from "solid-js";
-import music from "../../assets/music.png";
-
+import music_walk from "../../assets/music_walk.jpg";
 export default function Register() {
   const [enteredPassword, setEnteredPassword] = createSignal([]);
   const [hasPassword, setHasPassword] = createSignal(false);
@@ -13,13 +12,11 @@ export default function Register() {
   // TODO: animate drop down for confirm password
 
   return (
-    <div class="flex items-center justify-center h-screen">
+    <div class="flex items-center justify-center h-screen bg-black">
       <div class="container w-3/12 border-4 rounded h-5.5/6">
         <img
-          src={music}
-          alt="music note"
-          class="w-fit
-        "
+          src={music_walk}
+          alt="Staircase with follow the music written on the walls"
         />
         <div class="container w-fit">
           <form class="flex flex-col">

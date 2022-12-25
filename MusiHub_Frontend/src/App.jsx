@@ -1,4 +1,3 @@
-import Nav from "./components/Nav";
 import Home from "./pages/Home/Home";
 import Landing from "./pages/Landing/Landing";
 import Register from "./pages/Register/Register";
